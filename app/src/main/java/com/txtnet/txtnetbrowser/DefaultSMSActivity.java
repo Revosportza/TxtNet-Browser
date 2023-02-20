@@ -1,6 +1,8 @@
 package com.txtnet.txtnetbrowser;
 
 
+import static com.txtnet.txtnetbrowser.R.string.DefTxtFirstToastPartTwo;
+
 import android.app.Activity;
 import android.app.role.RoleManager;
 import android.content.ComponentName;
@@ -42,7 +44,7 @@ public class DefaultSMSActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         String currentDefault = Telephony.Sms.getDefaultSmsPackage(this);
         boolean isDefault = getPackageName().equals(currentDefault);
-        Toast.makeText(getApplicationContext(), "TxtNet SMS is " + (isDefault ? "now the default SMS app." : "still not the default SMS app."), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), getString(R.string.DefTxtFirstToastPartOne) + (isDefault ? getString(DefTxtFirstToastPartTwo) : getString(R.string.DefTxtFirstToastPartThree)), Toast.LENGTH_SHORT).show();
 
     }
 

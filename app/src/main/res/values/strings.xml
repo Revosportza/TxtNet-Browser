@@ -35,4 +35,15 @@
     <string name="appIntroPermsDesc">Certain permissions are required to continue. Without them, this app will not function.</string>
     <string name="appIntroThanks">Thank you!</string>
     <string name="appIntroThanksDesc">Enjoy the app.</string>
+
+    <string name="smsNotDeliveredMessage">SMS not delivered</string>
+    <string name="SMSGenericFail">SMS generic failure</string>
+    <string name="SMSNoServ">SMS no service</string>
+    <string name="SMSNP">SMS null PDU</string>
+    <string name="SMSRadio">SMS radio off</string>
+    <string name="DefTxtFirstToastPartOne">\"TxtNet SMS is \"</string>
+    <string name="DefTxtFirstToastPartTwo">now the default SMS app.</string>
+    <string name="DefTxtFirstToastPartThree">still not the default SMS app.</string>
+
+
 </resources>
