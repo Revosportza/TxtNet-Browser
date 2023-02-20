@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TxtNet Navegador</string>
+    <string name="check_connection">Por favor chequea su conexión de Internet.</string>
+    <string name="forward_arrow">Flecha Hacia Adelante</string>
+    <string name="go_button">Ir</string>
+    <string name="descr_overflow_button">Opciones</string>
+    <string name="is_accessed">estaAccesado</string>
+    <string name="phone_number">númeroDeTeléfono</string>
+    <string name="default_phone">+18884842216</string>
+    <string name="optin_confirmation_terms">
+        Twilio (el dueño del numero de teléfono del servidor que estoy usando) se requiere unos Términos de servicio para mantener la funcionalidad de la aplicación.
+\n\n
+        RPV: No quiero su información y la aplicación no va a textearte sin su permiso explicíto (en la forma del solicitud del Web).  No tengo motivos para molestarte con mensajes de texto aparte de darte el sitio web que solicitaste en primer lugar.  No busco lucrar ni regalar ni vender datos de usuario al ofrecer este servicio.
+\n\n
+        Al aceptar estos Términos de servicio, usted (el usuario) acepta que al presionar la tecla \"Entrar\" o el ícono \"Buscar\" en esta aplicación, la aplicación enviará una cantidad variable de mensajes de texto al número de teléfono especificado. Lo aparece en la opción \"Cambiar número de teléfono del servidor\" (en lo sucesivo, \"el número de teléfono\")
+        Los usuarios aceptan recibir mensajes SMS a mensajes SMS cuando acepta estos términos presionando \"Acepto\". Los intercambios de SMS son iniciados por el usuario y se ejecutan durante la duración de la solicitud, que suele ser inferior a un minuto. El número de teléfono no inicia más mensajes SMS hasta que el usuario realiza otra solicitud de suscripción (señalado por el envío de una solicitud). También hay disponible un botón de exclusión dentro de la aplicación que envía el texto \"DETENER\" al número gratuito en su nombre.
+\n\n
+        La cantidad de mensajes de texto enviados al número de teléfono es un resultado directo de la longitud de la URL que solicita, que se muestra en la barra de URL/búsqueda. Por ejemplo, es probable que las URL de más de 200 caracteres se dividan en 2 mensajes de texto.
+        Al iniciar el contacto para enviar (o permitir que TxtNet Browser envíe) un SMS al número de teléfono, acepta recibir entre 1 (uno) y 100 (cien) mensajes SMS del número de teléfono en forma de un sitio web codificado. Cada solicitud al número de teléfono constituye una \'conversación\' que incluye su consentimiento implícito y prueba de consentimiento.
+        Puede responder STOP en cualquier momento para dejar de recibir mensajes SMS del número de teléfono. El icono \"detener\" del navegador TxtNet envía automáticamente este texto en su nombre.
+\n\n
+        El anfitrión del número de teléfono no es responsable de los efectos de recibir mensajes SMS desde el número de teléfono, como un aumento en la utilización del almacenamiento o bloqueos de aplicaciones.
+        El host del número de teléfono mantendrá una \"marca de tiempo de cuando el cliente completó un flujo de registro\", según lo exige la política de mensajes de números gratuitos de Twilio, disponible en https://www.twilio.com/legal/messaging-policy
+\n\n
+        Usted acepta que los datos del usuario (como el número de teléfono y la URL de la solicitud) no serán almacenados por el host del número de teléfono a menos que ocurra un error, en cuyo caso se pueden registrar durante 30 días para ayudar a resolver los errores.
+
+    </string>
+    <string name="accept">Acepto</string>
+    <string name="cancel">Salir de la aplicación</string>
+    <string name="is_tosaccepted">isTosAccepted</string>
+
+    <string name="appIntroWelcome">Bienvenidos a TxtNet Navegador</string>
+    <string name="appIntroDesc">Con este aplicación puede buscar al Internet sin conexión del Internet.</string>
+    <string name="appIntroPermsString">Permissions</string>
+    <string name="appIntroPermsDesc">Hay permisos necesarios para mantener la funcionalidad de la aplicación.</string>
+    <string name="appIntroThanks">Gracias</string>
+    <string name="appIntroThanksDesc">Disfrutar la aplicación.</string>
+</resources>
